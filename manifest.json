@@ -1,15 +1,19 @@
 {
-  "name": "HPAY Mobile",
   "short_name": "HPAY",
-  "start_url": ".",
-  "display": "standalone",
-  "background_color": "#000000",
-  "theme_color": "#000000",
+  "name": "HPAY Financeiro",
   "icons": [
     {
-      "src": "https://via.placeholder.com/512/f97316/000000?text=H",
+      "src": "https://cdn-icons-png.flaticon.com/512/10149/10149458.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
-  ]
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "orientation": "portrait",
+  "scope": "/",
+  "display_override": ["window-controls-overlay", "standalone"]
 }
