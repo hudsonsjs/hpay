@@ -186,5 +186,12 @@
         const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(<App />);
     </script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./sw.js')
+      .then(() => console.log("Vigia (Service Worker) Ativo!"))
+      .catch((err) => console.log("Erro no vigia:", err));
+  }
+</script>
 </body>
 </html>
