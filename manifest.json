@@ -1,0 +1,15 @@
+{
+  "name": "HPAY Mobile",
+  "short_name": "HPAY",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/512/f97316/000000?text=H",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
